@@ -10,7 +10,7 @@ local awayEndPosition = Vector3.new(-156.830841, 5.29914236, 25.6178398)
 local homeStartPosition = Vector3.new(156.87178, 5.04873896, 25.6178417)
 local homeEndPosition = Vector3.new(156.87178, 5.04873896, -3.53833675)
 
-local steps = 1
+local steps = 5
 local isTeleporting = false
 local currentGoal = nil
 
