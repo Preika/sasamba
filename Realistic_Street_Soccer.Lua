@@ -31,7 +31,7 @@ local function teleportGradually(startPos, endPos)
         if character and character.PrimaryPart then
             character:SetPrimaryPartCFrame(CFrame.new(newPosition))
         end
-        wait(0.009)
+        wait(0.01)
     end
 
     if currentGoal == endPos then
